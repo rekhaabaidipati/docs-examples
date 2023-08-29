@@ -21,14 +21,18 @@
   },
   "secrets": {
     "PAYPAL_CLIENT_ID": {
-      "description": "Sandbox client ID of the application.",
+      "description": "Sandbox client ID of the application. Leave blank to use default credentials.",
       "documentationUrl": "https://developer.paypal.com/dashboard/applications/sandbox"
     },
     "PAYPAL_CLIENT_SECRET": {
-      "description": "Sandbox secret of the application.",
+      "description": "Sandbox secret of the application. Leave blank to use default credentials.",
       "documentationUrl": "https://developer.paypal.com/dashboard/applications/sandbox"
     }
   },
+  "containerEnv": {
+    "PAYPAL_CLIENT_ID": "Aaxw0ZpK_9jPuIbMtDP5-nhpbBtRx3A-4RtJzAa6MmKtA2-uoBIMejkThhCUku7THxm4iTA2bE2FTII4",
+    "PAYPAL_CLIENT_SECRET": "ECvqnkqm2ZLuuuaKJPwr48SKYyMC4NHKdC6qptYoe6DM03MmkPmLkA23euqVQ8P4qFFdDU7Ewv2h3XVy"
+},
   "customizations": {
     "vscode": {
       "extensions": ["vsls-contrib.codetour"],
